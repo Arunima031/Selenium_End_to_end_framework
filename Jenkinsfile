@@ -100,10 +100,7 @@ pipeline {
                          } else {
                              echo "Cannot publish HTML report, file not found."
                          }
-                     }
-
-             cleanWs()
+                      cleanWs()
          }
      }
-
 }
