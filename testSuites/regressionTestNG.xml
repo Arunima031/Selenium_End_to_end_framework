@@ -12,6 +12,7 @@
     <test verbose="2" preserve-order="true" name="Regression Test">
         <classes><class name="org.practice.tests.TraversalPageTest">
         </class>
+            <class name="org.practice.tests.LandingPageTest"></class>
         </classes>
     </test>
 </suite>

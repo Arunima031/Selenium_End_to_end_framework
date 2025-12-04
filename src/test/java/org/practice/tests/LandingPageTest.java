@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class LandingPageTest extends BaseTest {
     private static final Logger LoggerUtil = LogManager.getLogger(LandingPageTest.class);
 
-    @Test(groups="Smoke",retryAnalyzer = RetryAnalyser.class)
+    @Test(groups={"Smoke","Regression"},retryAnalyzer = RetryAnalyser.class)
     public void loginTest(){
         page.getInstance(LandingPage.class).cancelLoginPopup();
         AssertionUtils.assertElementNotVisible(false);
