@@ -15,8 +15,7 @@ public class LandingPageTest extends BaseTest {
     public void loginTest(){
         page.getInstance(LandingPage.class).cancelLoginPopup();
         AssertionUtils.assertElementNotVisible(false);
-
-   }
+    }
 
 
 }

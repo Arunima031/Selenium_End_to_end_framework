@@ -29,9 +29,5 @@ public class TraversalPageTest extends BaseTest {
             }
         }
         System.out.println(driver.getCurrentUrl());
-
-
-
-
     }
 }

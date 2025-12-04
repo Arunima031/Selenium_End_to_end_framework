@@ -35,8 +35,7 @@ public class LandingPage extends BasePage {
         return this;
     }
 
-    public TraversalPage clickTraversLEmENUnu(){
-
+    public TraversalPage clickTraversalMenu(){
         return getInstance(TraversalPage.class);
     }
 }

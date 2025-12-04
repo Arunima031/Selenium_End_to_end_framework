@@ -61,10 +61,6 @@ public class APITest extends ApiBaseTest {
                .post("https://your-api.com/api/users").then().statusCode(201).extract().as(UserProfileResponse.class);
        assertEquals(res.getAddress(),userProfileRequest.getAddress());
        assertEquals(res.getJob(),userProfileRequest.getJob());
-
-
-       
-       
-   }
+    }
 
 }
