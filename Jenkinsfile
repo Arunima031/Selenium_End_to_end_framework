@@ -31,14 +31,14 @@ pipeline {
         }
         stage('Maven Install') {
             steps {
-                sh "mvn clean install -DskipTests"
+                bat "mvn clean install -DskipTests"
             }
         }
         stage('PR Smoke Tests') {
             when { changeRequest() }
             steps {
                 echo "Pull Request detected → Running Smoke"
-                sh "mvn clean test -PSmoke -Denv=qa"
+                bat "mvn clean test -PSmoke -Denv=qa"
             }
         }
 
@@ -46,7 +46,7 @@ pipeline {
             when { triggeredBy 'TimerTrigger' }
             steps {
                 echo "Scheduled weekly regression → Running Regression on ENV=qa"
-                sh "mvn clean test -PRegression -Denv=qa"
+                bat "mvn clean test -PRegression -Denv=qa"
             }
         }
 
@@ -59,7 +59,7 @@ pipeline {
             }
             steps {
                 echo "Manual run → ENV=${params.ENV}, PROFILE=${params.PROFILE}"
-                sh "mvn clean test -P${params.PROFILE} -Denv=${params.ENV}"
+                bat "mvn clean test -P${params.PROFILE} -Denv=${params.ENV}"
             }
         }
         }
