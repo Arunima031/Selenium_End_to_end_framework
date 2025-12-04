@@ -87,8 +87,7 @@ pipeline {
                  } else {
                      echo "No artifacts found to archive."
                  }
-             }
-             if (fileExists('reports/automation.html')) {
+           if (fileExists('reports/automation.html')) {
                              publishHTML([
                                  allowMissing: false,
                                  alwaysLinkToLastBuild: true,
@@ -101,6 +100,7 @@ pipeline {
                              echo "Cannot publish HTML report, file not found."
                          }
                       cleanWs()
+         }
          }
      }
 }
