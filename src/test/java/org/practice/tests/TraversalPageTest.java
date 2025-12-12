@@ -2,6 +2,7 @@ package org.practice.tests;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.practice.DriverFactory.DriverManager;
 import org.practice.base.BaseTest;
 import org.practice.pageObjects.LandingPage;
 import org.practice.pageObjects.TraversalPage;
@@ -19,15 +20,15 @@ public class TraversalPageTest extends BaseTest {
         traversalPage=page.getInstance(TraversalPage.class);
         traversalPage.clickDropdown();
         System.out.println(traversalPage.getDropdownElements());
-        String currentWindow = driver.getWindowHandle();
+        String currentWindow = DriverManager.getDriver().getWindowHandle();
         traversalPage.clickElementNeeded();
-        Set<String> allWindows = driver.getWindowHandles();
+        Set<String> allWindows = DriverManager.getDriver().getWindowHandles();
         for(String window:allWindows){
             if(!window.equals(currentWindow)){
-                driver.switchTo().window(window);
+                DriverManager.getDriver().switchTo().window(window);
                 break;
             }
         }
-        System.out.println(driver.getCurrentUrl());
+        LoggerUtil.info("", DriverManager.getDriver().getCurrentUrl());
     }
 }

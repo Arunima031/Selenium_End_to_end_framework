@@ -10,8 +10,9 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import java.time.Duration;
 
 public class DriverClass {
-    private static WebDriver driver;
+
     public static WebDriver getDriver(String browser){
+        WebDriver driver;
         switch(browser.toLowerCase()){
             case "chrome":
                 ChromeOptions option =new ChromeOptions();
@@ -27,7 +28,7 @@ public class DriverClass {
             case "edge" :
                 driver=new EdgeDriver();
                 break;
-                default:
+            default:
                throw new IllegalArgumentException("browser is not supported");
         }
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));

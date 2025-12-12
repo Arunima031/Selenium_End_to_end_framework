@@ -44,13 +44,13 @@ public class BasePage extends Page {
 
     @Override
     public WebElement waitUntilElementIsVisible(WebElement element, int timeout){
-        WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(timeout));
+        WebDriverWait wait= new WebDriverWait(getDriver(), Duration.ofSeconds(timeout));
         return wait.until(ExpectedConditions.visibilityOf(element));
     }
 
     @Override
     public WebElement waitUntilElementIsVisible(WebElement element, int timeout, int pollingTime){
-        FluentWait<WebDriver> wait = new FluentWait<>(driver).withTimeout(Duration.ofSeconds(timeout))
+        FluentWait<WebDriver> wait = new FluentWait<>(getDriver()).withTimeout(Duration.ofSeconds(timeout))
                 .pollingEvery(Duration.ofSeconds(pollingTime))
                 .ignoring(NoSuchElementException.class).ignoring(TimeoutException.class);
         return wait.until(ExpectedConditions.visibilityOf(element));
@@ -58,13 +58,13 @@ public class BasePage extends Page {
 
     @Override
     public WebElement waitUntilElementIsClickable(WebElement element, int timeout){
-        WebDriverWait wait= new WebDriverWait(driver, Duration.ofSeconds(timeout));
+        WebDriverWait wait= new WebDriverWait(getDriver(), Duration.ofSeconds(timeout));
         return wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
     @Override
     public WebElement waitUntilElementIsClickable(WebElement element, int timeout, int pollingTime){
-        FluentWait<WebDriver> wait = new FluentWait<>(driver).withTimeout(Duration.ofSeconds(timeout))
+        FluentWait<WebDriver> wait = new FluentWait<>(getDriver()).withTimeout(Duration.ofSeconds(timeout))
                 .pollingEvery(Duration.ofSeconds(pollingTime))
                 .ignoring(NoSuchElementException.class).ignoring(TimeoutException.class);
        return wait.until(ExpectedConditions.elementToBeClickable(element));

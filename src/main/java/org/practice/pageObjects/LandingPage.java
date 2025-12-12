@@ -21,7 +21,7 @@ public class LandingPage extends BasePage {
     private WebElement closeForAd;
 
     public void goTo(){
-        driver.get(ConfigureProperties.getProperty("url"));
+        getDriver().get(ConfigureProperties.getProperty("url"));
 
     }
 
