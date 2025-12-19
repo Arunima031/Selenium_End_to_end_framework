@@ -4,8 +4,8 @@ import org.testng.Assert;
 
 public abstract class AssertionUtils {
 
-    public static void assertTitle(String actual, String expected) {
-            Assert.assertEquals(actual, expected, "Title does not match!");
+    public static void assertText(String actual, String expected) {
+            Assert.assertEquals(actual, expected, "Text does not match!");
         }
 
         public static void assertElementVisible(boolean isDisplayed) {

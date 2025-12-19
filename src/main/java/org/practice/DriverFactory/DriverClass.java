@@ -6,8 +6,12 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.practice.utilities.DownloadUtility;
 
+import java.nio.file.Paths;
 import java.time.Duration;
+import java.util.HashMap;
+import java.util.Map;
 
 public class DriverClass {
 
@@ -15,8 +19,15 @@ public class DriverClass {
         WebDriver driver;
         switch(browser.toLowerCase()){
             case "chrome":
+                String downloadDir = DownloadUtility.getDownloadDir();
                 ChromeOptions option =new ChromeOptions();
                 option.addArguments("--disable-notifications");
+                Map<String, Object> prefs = new HashMap<>();
+                prefs.put("download.default_directory", downloadDir);
+                prefs.put("download.prompt_for_download", false);
+                prefs.put("safebrowsing.enabled", true);
+
+                option.setExperimentalOption("prefs", prefs);
                 driver = new ChromeDriver(option);
                 break;
             case "firefox":

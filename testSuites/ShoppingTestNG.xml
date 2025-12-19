@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite  name="All Test Suite" parallel="methods" thread-count="2">
+    <groups>
+        <run>
+            <include name="Shopping"/>
+        </run>
+    </groups>
+    <listeners>
+        <listener class-name="org.practice.utilsForTests.Listeners" />
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Shopping Test">
+        <classes>
+            <class name="org.practice.tests.AppFormTest">  </class>
+            <class name="org.practice.tests.ShoppingTest"></class>
+        </classes>
+    </test>
+</suite>

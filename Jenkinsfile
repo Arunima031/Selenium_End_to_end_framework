@@ -75,9 +75,11 @@ pipeline {
                      echo "Report not found: reports/automation.html"
                  }
 
-                 if (fileExists('test-output/screenshots')) {
-                     filesToArchive.add('test-output/screenshots/*.png')
-                 }
+                 if (fileExists('reports/screenshots')) {
+                                 filesToArchive.add('reports/screenshots/*.png')
+                             } else {
+                                 echo "Screenshots folder not found: reports/screenshots"
+                             }
                  if (fileExists('logs')) {
                      filesToArchive.add('logs/*.log')
                  }

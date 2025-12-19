@@ -1,8 +1,5 @@
 package org.practice.base;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.practice.DriverFactory.DriverManager;
 
 import java.io.File;
@@ -20,7 +17,7 @@ public abstract class Page {
         return DriverManager.getDriver();
     }
 
-
+    public  abstract WebElement find(By locator);
     public abstract void click(WebElement element, int timeout);
 
     public abstract void click(WebElement element,int timeout,int pollingTime);
@@ -28,10 +25,10 @@ public abstract class Page {
 
     public abstract void type(WebElement element,int timeout,String text);
 
-    public abstract void getText(WebElement element,int timeout,int pollingTime);
+    public abstract String getText(WebElement element, int timeout, int pollingTime);
 
-    public abstract void isElementDisplayed(WebElement element,int timeout);
-    public abstract void isElementSelected(WebElement element,int timeout);
+    public abstract boolean isElementDisplayed(WebElement element, int timeout);
+    public abstract boolean isElementSelected(WebElement element, int timeout);
 
     public abstract WebElement waitUntilElementIsVisible(WebElement element, int timeout);
 
