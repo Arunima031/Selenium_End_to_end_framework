@@ -18,7 +18,7 @@ pipeline {
         )
         choice(
             name: 'PROFILE',
-            choices: ['None', 'Smoke', 'Regression', 'API'],
+            choices: ['None', 'Smoke', 'Regression', 'API','Practice','Form','Shopping']
             description: 'Select Maven profile to run (manual runs only)'
         )
     }
