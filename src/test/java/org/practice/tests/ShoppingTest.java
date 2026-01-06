@@ -5,6 +5,7 @@ import org.practice.pageObjects.CheckoutPage;
 import org.practice.pageObjects.FormPage;
 import org.practice.pageObjects.ItemsDisplayPage;
 import org.practice.pageObjects.PurchasePage;
+import org.practice.utilities.ExtentLoggerUtil;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -16,7 +17,7 @@ PurchasePage purchasePage;
     public void shoppingTest(){
         String purchaseItem="iphone X";
         itemPage= page.getInstance(FormPage.class).goToShopPage();
-        System.out.println( itemPage.getUrlOfPage());
+        ExtentLoggerUtil.info( itemPage.getUrlOfPage());
         checkoutPage=itemPage.addItem(purchaseItem).clickCheckout();
         Assert.assertTrue(checkoutPage.validateItemPresentOnList(purchaseItem));
         Assert.assertEquals(checkoutPage.getSizeOfList(),1,"Extra items added");
@@ -39,7 +40,7 @@ PurchasePage purchasePage;
         String purchaseItem1="iphone X";
         String purchaseItem2="Samsung Note 8";
         itemPage= page.getInstance(FormPage.class).goToShopPage();
-        System.out.println( itemPage.getUrlOfPage());
+        ExtentLoggerUtil.info( itemPage.getUrlOfPage());
         checkoutPage=itemPage.addItem(purchaseItem1).clickCheckout();
         Assert.assertTrue(checkoutPage.validateItemPresentOnList(purchaseItem1));
         Assert.assertEquals(checkoutPage.getSizeOfList(),1,"Extra items added");

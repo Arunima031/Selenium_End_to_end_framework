@@ -6,6 +6,7 @@ import org.practice.DriverFactory.DriverManager;
 import org.practice.base.BaseTest;
 import org.practice.pageObjects.LandingPage;
 import org.practice.pageObjects.TraversalPage;
+import org.practice.utilities.ExtentLoggerUtil;
 import org.testng.annotations.Test;
 
 import java.util.Set;
@@ -29,6 +30,6 @@ public class TraversalPageTest extends BaseTest {
                 break;
             }
         }
-        LoggerUtil.info("", DriverManager.getDriver().getCurrentUrl());
+        ExtentLoggerUtil.info("Current url: "+DriverManager.getDriver().getCurrentUrl());
     }
 }

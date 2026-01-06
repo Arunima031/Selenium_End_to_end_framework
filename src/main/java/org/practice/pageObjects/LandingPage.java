@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.practice.base.BasePage;
-import org.practice.resources.ConfigureProperties;
+import org.practice.properties.ConfigureProperties;
 
 import static org.practice.constants.constantValue.LONG_TIMEOUT;
 

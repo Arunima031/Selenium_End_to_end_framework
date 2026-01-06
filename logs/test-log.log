@@ -1,0 +1,15 @@
+2026-01-06 13:36:27 [TestNG-test-MultiWindow Test-2] INFO  org.practice.utilities.LoggerUtil - Practice Page
+2026-01-06 13:36:29 [TestNG-test-MultiWindow Test-1] INFO  org.practice.utilities.LoggerUtil - Switch to new Tab : QAClick Academy - A Testing Academy to Learn, Earn and Shine
+2026-01-06 13:36:29 [TestNG-test-MultiWindow Test-1] INFO  org.practice.utilities.LoggerUtil - Switching back to parent : Practice Page
+2026-01-06 13:36:35 [TestNG-test-MultiWindow Test-2] INFO  org.practice.utilities.LoggerUtil - Switch to new Window : QAClick Academy - A Testing Academy to Learn, Earn and Shine
+2026-01-06 13:38:09 [TestNG-test-MultiWindow Test-2] INFO  org.practice.utilities.LoggerUtil - Practice Page
+2026-01-06 13:38:11 [TestNG-test-MultiWindow Test-2] INFO  org.practice.utilities.LoggerUtil - Switch to new Window : QAClick Academy - A Testing Academy to Learn, Earn and Shine
+2026-01-06 13:38:16 [TestNG-test-MultiWindow Test-1] INFO  org.practice.utilities.LoggerUtil - Switch to new Tab : QAClick Academy - A Testing Academy to Learn, Earn and Shine
+2026-01-06 13:38:16 [TestNG-test-MultiWindow Test-1] INFO  org.practice.utilities.LoggerUtil - Switching back to parent : Practice Page
+2026-01-06 14:04:32 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Tue Jan 06 14:04:32 IST 2026
+2026-01-06 14:04:41 [TestNG-test-MultiWindow Test-2] INFO  org.practice.utilities.LoggerUtil - Practice Page
+2026-01-06 14:04:41 [TestNG-test-MultiWindow Test-1] INFO  org.practice.utilities.LoggerUtil - Switch to new Tab : QAClick Academy - A Testing Academy to Learn, Earn and Shine
+2026-01-06 14:04:41 [TestNG-test-MultiWindow Test-1] INFO  org.practice.utilities.LoggerUtil - Switching back to parent : Practice Page
+2026-01-06 14:04:41 [TestNG-test-MultiWindow Test-1] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : MultiTabs
+2026-01-06 14:04:42 [TestNG-test-MultiWindow Test-2] INFO  org.practice.utilities.LoggerUtil - Switch to new Window : QAClick Academy - A Testing Academy to Learn, Earn and Shine
+2026-01-06 14:04:42 [TestNG-test-MultiWindow Test-2] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : MultiWindows

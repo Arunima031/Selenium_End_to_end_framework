@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.practice.DriverFactory.DriverClass;
 import org.practice.DriverFactory.DriverManager;
 import org.practice.pageObjects.LandingPage;
-import org.practice.resources.ConfigureProperties;
+import org.practice.properties.ConfigureProperties;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 

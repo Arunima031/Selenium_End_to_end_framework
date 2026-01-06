@@ -1,4 +1,4 @@
-package org.practice.resources;
+package org.practice.properties;
 
 import org.practice.enums.EnvironmentType;
 
@@ -15,7 +15,7 @@ public class ConfigureProperties {
         String filename = envType.name().toLowerCase() + ".properties";
         String relativePath = File.separator + "src" + File.separator + "main" + File.separator + "java" +
                 File.separator + "org" + File.separator + "practice" +
-                File.separator + "resources" + File.separator + filename;
+                File.separator + "properties" + File.separator + filename;
         try (FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + relativePath)) {
             prop.load(fis);
         } catch (IOException e) {
