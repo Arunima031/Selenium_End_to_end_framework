@@ -5,7 +5,7 @@ import io.restassured.http.ContentType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.practice.base.ApiBaseTest;
-import org.practice.pojoClasses.*;
+import org.practice.pojoClasses.apiPojo.*;
 import org.testng.annotations.Test;
 
 import java.util.Arrays;

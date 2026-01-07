@@ -13,3 +13,154 @@
 2026-01-06 14:04:41 [TestNG-test-MultiWindow Test-1] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : MultiTabs
 2026-01-06 14:04:42 [TestNG-test-MultiWindow Test-2] INFO  org.practice.utilities.LoggerUtil - Switch to new Window : QAClick Academy - A Testing Academy to Learn, Earn and Shine
 2026-01-06 14:04:42 [TestNG-test-MultiWindow Test-2] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : MultiWindows
+2026-01-07 13:00:51 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 13:00:51 IST 2026
+2026-01-07 13:03:55 [main] WARN  org.practice.utilities.LoggerUtil - Test skipped : loginTest
+2026-01-07 13:11:04 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 13:11:04 IST 2026
+2026-01-07 13:11:04 [main] WARN  org.practice.utilities.LoggerUtil - Test skipped : loginTest
+2026-01-07 13:14:37 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 13:14:37 IST 2026
+2026-01-07 13:14:49 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 13:59:03 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 13:59:03 IST 2026
+2026-01-07 13:59:19 [main] WARN  org.practice.utilities.LoggerUtil - Test skipped : loginTest
+2026-01-07 13:59:34 [main] ERROR org.practice.utilities.LoggerUtil - Test failed : loginTest
+2026-01-07 13:59:34 [main] ERROR org.practice.utilities.LoggerUtil - no such element: Unable to locate element: {"method":"xpath","selector":"/../span[@class='checkmark']"}
+  (Session info: chrome=143.0.7499.170)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [26226d193d657187375084cf2cce3b87, findChildElement {id=f.150FB919147476C8B60366F09B2ACDF1.d.29A5E2116E254667E0B886724943530F.e.15, value=/../span[@class='checkmark'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ARUNIM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63711}, goog:processID: 6904, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63711/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 26226d193d657187375084cf2cce3b87
+2026-01-07 14:02:57 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 14:02:57 IST 2026
+2026-01-07 14:03:14 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 15:57:38 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 15:57:38 IST 2026
+2026-01-07 15:57:44 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 15:57:44 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 15:57:45 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-07 15:57:45 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-07 15:57:45 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-07 15:57:48 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 15:57:52 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 15:57:52 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 15:57:52 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : User
+2026-01-07 15:57:53 [main] WARN  org.practice.utilities.LoggerUtil - Test skipped : loginTest
+2026-01-07 15:57:58 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 15:57:58 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 15:57:58 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : User
+2026-01-07 15:57:59 [main] ERROR org.practice.utilities.LoggerUtil - Test failed : loginTest
+2026-01-07 15:57:59 [main] ERROR org.practice.utilities.LoggerUtil - element click intercepted: Element <input id="terms" name="terms" type="checkbox"> is not clickable at point (404, 486). Other element would receive the click: <div id="myModal" class="modal fade show" style="padding-right: 15px; display: block;">...</div>
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6ee052c742c0e9b46fd7e6a96155809e, clickElement {id=f.DD67609F4834001B8653C47985971ED1.d.D9B0B00C09A8AB95442165C886767332.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ARUNIM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59712}, goog:processID: 4032, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59712/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (6ee052c742c0e9b46fd7e6a96155809e)] -> css selector: [name="terms"]]
+Session ID: 6ee052c742c0e9b46fd7e6a96155809e
+2026-01-07 15:58:04 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 15:58:04 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 15:58:05 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-07 15:58:05 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-07 15:58:05 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-07 15:58:08 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 15:58:12 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 15:58:12 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 15:58:12 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-07 15:58:12 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-07 15:58:13 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 16:01:45 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 16:01:45 IST 2026
+2026-01-07 16:01:50 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 16:01:50 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 16:01:51 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-07 16:01:51 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-07 16:01:51 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-07 16:01:54 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 16:02:28 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 16:02:27 IST 2026
+2026-01-07 16:02:33 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 16:02:33 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 16:02:33 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-07 16:02:34 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-07 16:02:34 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 16:03:53 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 16:03:53 IST 2026
+2026-01-07 16:03:57 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 16:03:58 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 16:03:58 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : User
+2026-01-07 16:03:59 [main] WARN  org.practice.utilities.LoggerUtil - Test skipped : loginTest
+2026-01-07 16:04:03 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 16:04:03 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 16:04:03 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : User
+2026-01-07 16:04:05 [main] ERROR org.practice.utilities.LoggerUtil - Test failed : loginTest
+2026-01-07 16:04:05 [main] ERROR org.practice.utilities.LoggerUtil - element click intercepted: Element <input id="terms" name="terms" type="checkbox"> is not clickable at point (404, 486). Other element would receive the click: <div id="myModal" class="modal fade show" style="padding-right: 15px; display: block;">...</div>
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2a35f930d1a9236299cda19528496da4, clickElement {id=f.16DCE049B498550E67612CB72EC59A0C.d.66628FAE0C70A3473F9533C2F32C07E7.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ARUNIM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51826}, goog:processID: 8720, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51826/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (2a35f930d1a9236299cda19528496da4)] -> css selector: [name="terms"]]
+Session ID: 2a35f930d1a9236299cda19528496da4
+2026-01-07 16:13:04 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 16:13:04 IST 2026
+2026-01-07 16:13:09 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 16:13:09 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 16:13:10 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-07 16:13:10 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-07 16:13:10 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-07 16:13:13 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 16:13:17 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 16:13:17 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 16:13:17 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : User
+2026-01-07 16:13:18 [main] WARN  org.practice.utilities.LoggerUtil - Test skipped : loginTest
+2026-01-07 16:13:24 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 16:13:24 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 16:13:24 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : User
+2026-01-07 16:13:25 [main] ERROR org.practice.utilities.LoggerUtil - Test failed : loginTest
+2026-01-07 16:13:25 [main] ERROR org.practice.utilities.LoggerUtil - element click intercepted: Element <input id="terms" name="terms" type="checkbox"> is not clickable at point (404, 486). Other element would receive the click: <div id="myModal" class="modal fade show" style="padding-right: 15px; display: block;">...</div>
+  (Session info: chrome=143.0.7499.170)
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [12d683c50fd12a08ffdc0cf8375ae9eb, clickElement {id=f.D87F026C6CDE5A2BECA3B0E8670868A2.d.6E027C383229F304357EEBD6CAB60DB8.e.8}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.170, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\ARUNIM~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59509}, goog:processID: 6956, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59509/devtoo..., se:cdpVersion: 143.0.7499.170, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (12d683c50fd12a08ffdc0cf8375ae9eb)] -> css selector: [name="terms"]]
+Session ID: 12d683c50fd12a08ffdc0cf8375ae9eb
+2026-01-07 16:13:29 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 16:13:29 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 16:13:30 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-07 16:13:30 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-07 16:13:30 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-07 16:13:32 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 16:13:36 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 16:13:36 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 16:13:37 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-07 16:13:37 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-07 16:13:37 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 16:15:47 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 16:15:47 IST 2026
+2026-01-07 16:15:47 [main] ERROR org.practice.utilities.LoggerUtil - Test failed : loginTest
+2026-01-07 16:15:47 [main] ERROR org.practice.utilities.LoggerUtil - java.lang.RuntimeException: Failed to load login test data
+2026-01-07 17:12:33 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 17:12:33 IST 2026
+2026-01-07 17:12:34 [main] ERROR org.practice.utilities.LoggerUtil - Test failed : loginTest
+2026-01-07 17:12:34 [main] ERROR org.practice.utilities.LoggerUtil - java.lang.RuntimeException: Failed to load login test data
+2026-01-07 17:16:37 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Wed Jan 07 17:16:36 IST 2026
+2026-01-07 17:16:45 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 17:16:45 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 17:16:45 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-07 17:16:46 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-07 17:16:46 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-07 17:16:49 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 17:16:53 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 17:16:53 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 17:16:54 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : User
+2026-01-07 17:16:55 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-07 17:16:55 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-07 17:16:58 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 17:17:03 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 17:17:04 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 17:17:04 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-07 17:17:04 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-07 17:17:04 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-07 17:17:07 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-07 17:17:11 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-07 17:17:12 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-07 17:17:12 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-07 17:17:12 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-07 17:17:12 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest

@@ -1,0 +1,43 @@
+[
+  {
+    "scenario": "validAsAdmin",
+    "username": "rahulshettyacademy",
+    "password": "learning",
+    "role": "Admin",
+    "acceptTerms": true,
+    "requiresModalOk": false,
+    "expectedPage": "ItemDisplay",
+    "expectedToast": ""
+  },
+
+  {
+    "scenario": "validAsUser",
+    "username": "rahulshettyacademy",
+    "password": "learning",
+    "role": "User",
+    "acceptTerms": true,
+    "requiresModalOk": true,
+    "expectedPage": "ItemDisplay",
+    "expectedToast": ""
+  },
+  {
+    "scenario": "invalid",
+    "username": "wronguser",
+    "password": "wrongpass",
+    "role": "Admin",
+    "acceptTerms": true,
+    "requiresModalOk": false,
+    "expectedPage": "Landing",
+    "expectedToast": "Incorrect username/password."
+  },
+  {
+    "scenario": "empty",
+    "username": "",
+    "password": "",
+    "role": "Admin",
+    "acceptTerms": false,
+    "requiresModalOk": false,
+    "expectedPage": "Landing",
+    "expectedToast": "Empty username/password."
+  }
+]
