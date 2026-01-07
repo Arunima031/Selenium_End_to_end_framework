@@ -1,4 +1,4 @@
-package org.practice.pojoClasses;
+package org.practice.pojoClasses.apiPojo;
 
 import java.util.List;
 

@@ -3,8 +3,8 @@ package org.practice.base;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.practice.pojoClasses.LoginRequest;
-import org.practice.pojoClasses.LoginResponse;
+import org.practice.pojoClasses.apiPojo.LoginRequest;
+import org.practice.pojoClasses.apiPojo.LoginResponse;
 import org.testng.annotations.BeforeClass;
 
 import static io.restassured.RestAssured.given;

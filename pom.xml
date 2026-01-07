@@ -171,7 +171,7 @@
                     <version>3.5.3</version>
                     <configuration>
                         <suiteXmlFiles>
-<!--                            <suiteXmlFile>testSuites/PracticeTestNG.xml</suiteXmlFile>-->
+                            <suiteXmlFile>testSuites/PracticeTestNG.xml</suiteXmlFile>
                             <suiteXmlFile>testSuites/MultiWindowTestNG.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>

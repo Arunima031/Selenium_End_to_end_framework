@@ -14,6 +14,7 @@ public class ItemsDisplayPage extends BasePage {
     By itemText=By.cssSelector(".card-title a");
     By addButton=By.cssSelector(".card-footer button");
     By checkoutButton=By.xpath("//a[contains(text(),'Checkout')]");
+    By itemPage=By.cssSelector("app-shop");
     public ItemsDisplayPage(WebDriver driver) {
         super(driver);
     }
@@ -39,5 +40,9 @@ public class ItemsDisplayPage extends BasePage {
         public CheckoutPage clickCheckout(){
         click(find(checkoutButton),LONG_TIMEOUT);
         return new CheckoutPage(getDriver());
+        }
+
+        public Boolean isItemPageDisplayed(){
+        return isElementDisplayed(find(itemPage),LONG_TIMEOUT);
         }
 }

@@ -13,7 +13,7 @@ pipeline {
     parameters {
         choice(
             name: 'ENV',
-            choices: ['qa', 'stage', 'prod'],
+            choices: ['qa', 'stage', 'prod','global'],
             description: 'Select environment'
         )
         choice(
