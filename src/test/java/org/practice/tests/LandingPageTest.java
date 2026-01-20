@@ -37,5 +37,6 @@ public class LandingPageTest extends BaseTest {
                     data.getExpectedToast()
             );
         }
+
     }
 }
