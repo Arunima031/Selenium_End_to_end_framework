@@ -164,3 +164,35 @@ Session ID: 12d683c50fd12a08ffdc0cf8375ae9eb
 2026-01-07 17:17:12 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
 2026-01-07 17:17:12 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
 2026-01-07 17:17:12 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-13 15:14:48 [main] INFO  org.practice.utilities.LoggerUtil - Automation run started | Suite: All Test Suite | Start time: Tue Jan 13 15:14:48 IST 2026
+2026-01-13 15:14:55 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-13 15:14:55 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-13 15:14:56 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-13 15:14:56 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-13 15:14:56 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-13 15:14:59 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-13 15:15:04 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-13 15:15:04 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-13 15:15:04 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : User
+2026-01-13 15:15:06 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-13 15:15:06 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-13 15:15:09 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-13 15:15:14 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-13 15:15:14 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-13 15:15:14 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-13 15:15:15 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-13 15:15:15 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-13 15:15:17 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-13 15:15:22 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-13 15:15:22 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-13 15:15:22 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-13 15:15:23 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-13 15:15:23 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-13 15:26:02 [TestNG-test-Form Test-2] INFO  org.practice.utilities.LoggerUtil - https://rahulshettyacademy.com/angularpractice/shop
+2026-01-13 15:26:02 [TestNG-test-Form Test-2] INFO  org.practice.utilities.LoggerUtil - https://rahulshettyacademy.com/angularpractice/
+2026-01-13 15:26:02 [TestNG-test-Form Test-2] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : navigation
+2026-01-13 15:26:03 [TestNG-test-Form Test-1] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : formTest
+2026-01-13 15:27:45 [TestNG-test-Form Test-2] INFO  org.practice.utilities.LoggerUtil - https://rahulshettyacademy.com/angularpractice/shop
+2026-01-13 15:27:46 [TestNG-test-Form Test-2] INFO  org.practice.utilities.LoggerUtil - https://rahulshettyacademy.com/angularpractice/
+2026-01-13 15:27:46 [TestNG-test-Form Test-2] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : navigation
+2026-01-13 15:27:46 [TestNG-test-Form Test-1] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : formTest

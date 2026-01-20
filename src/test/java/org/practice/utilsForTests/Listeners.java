@@ -13,12 +13,11 @@ import org.testng.ITestResult;
 public class Listeners implements ITestListener {
     ExtentReports extent = ReporterUtility.generateReport();
     ExtentTest test;
-    private static final ThreadLocal<ExtentTest> testThread = new ThreadLocal<>();
+
 
     @Override
     public void onTestStart(ITestResult result) {
         test = extent.createTest(result.getMethod().getMethodName(), "Started generating report for : " + result.getMethod().getMethodName());
-        testThread.set(test);
         ExtentLoggerUtil.setTest(test);
     }
 
@@ -35,7 +34,7 @@ public class Listeners implements ITestListener {
 
         if(DriverManager.getDriver() != null){
             String filepath = Page.captureScreenshot(result.getMethod().getMethodName());
-            testThread.get().addScreenCaptureFromPath(filepath, result.getMethod().getMethodName());
+            ExtentLoggerUtil.getTest().addScreenCaptureFromPath(filepath, result.getMethod().getMethodName());
         }
     }
 
@@ -46,14 +45,10 @@ public class Listeners implements ITestListener {
 
     @Override
     public void onStart(ITestContext context) {
-            String message = String.format(
-                    "Automation run started | Suite: %s | Start time: %s",
-                    context.getSuite().getName(),
-                    context.getStartDate()
-            );
+        extent.setSystemInfo("Suite", context.getSuite().getName());
+        extent.setSystemInfo("Start Time", context.getStartDate().toString());
 
-            ExtentLoggerUtil.info(message);
-        }
+    }
 
     @Override
     public void onFinish(ITestContext context) {

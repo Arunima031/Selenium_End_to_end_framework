@@ -12,6 +12,10 @@ public class ExtentLoggerUtil {
             extentTest.set(test);
         }
 
+        public static ExtentTest getTest(){
+            return extentTest.get();
+        }
+
         public static void unload() {
             extentTest.remove();
         }
