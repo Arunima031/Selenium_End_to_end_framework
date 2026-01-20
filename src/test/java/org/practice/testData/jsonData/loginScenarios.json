@@ -2,7 +2,7 @@
   {
     "scenario": "validAsAdmin",
     "username": "rahulshettyacademy",
-    "password": "learning",
+    "password": "Learning@830$3mK2",
     "role": "Admin",
     "acceptTerms": true,
     "requiresModalOk": false,
@@ -13,7 +13,7 @@
   {
     "scenario": "validAsUser",
     "username": "rahulshettyacademy",
-    "password": "learning",
+    "password": "Learning@830$3mK2",
     "role": "User",
     "acceptTerms": true,
     "requiresModalOk": true,
