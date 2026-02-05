@@ -10,7 +10,7 @@ import java.util.List;
 
 public class LoginDataProvider {
 
-    @DataProvider(name = "loginData")
+    @DataProvider(name = "loginData",parallel = true)
     public static Object[][] getLoginData() {
         try {
             ObjectMapper mapper = new ObjectMapper();

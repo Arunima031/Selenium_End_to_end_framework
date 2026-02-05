@@ -16,8 +16,5 @@ public abstract class AssertionUtils {
             Assert.assertTrue(actual.contains(expectedSubstring),
                     "Expected text to contain: " + expectedSubstring);
         }
-        public static void assertElementNotVisible(boolean isNotDisplayed){
-        Assert.assertFalse(isNotDisplayed,"Element is visible");
-        }
     }
 

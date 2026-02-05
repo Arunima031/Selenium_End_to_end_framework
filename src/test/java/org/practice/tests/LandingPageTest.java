@@ -7,6 +7,7 @@ import org.practice.pageObjects.LandingPage;
 import org.practice.pojoClasses.webPojo.LoginScenario;
 import org.practice.utilsForTests.RetryAnalyser;
 import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 
 public class LandingPageTest extends BaseTest {
@@ -15,7 +16,7 @@ public class LandingPageTest extends BaseTest {
     LandingPage landingPage;
     @Test(dataProvider = "loginData",
             dataProviderClass = LoginDataProvider.class,
-            groups={"Smoke","Regression"},retryAnalyzer = RetryAnalyser.class)
+            groups="Regression",retryAnalyzer = RetryAnalyser.class)
     public void loginTest(LoginScenario data){
       landingPage= page.getInstance(LandingPage.class).typeUserName(data.getUsername())
                .typePassword(data.getPassword()).selectRadioItems(data.getRole());
@@ -36,6 +37,14 @@ public class LandingPageTest extends BaseTest {
                     landingPage.getTextOfAlert(),
                     data.getExpectedToast()
             );
+
         }
+    }
+
+
+    @Test(groups="Smoke",retryAnalyzer = RetryAnalyser.class)
+    public void randomTest(){
+        landingPage= page.getInstance(LandingPage.class).typeUserName("random")
+                .typePassword("random");
     }
 }
