@@ -1,10 +1,12 @@
 package org.practice.base;
 
 import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.practice.DriverFactory.DriverManager;
+import org.practice.utilities.ExtentLoggerUtil;
 
 import java.time.Duration;
 
@@ -91,6 +93,26 @@ public class BasePage extends Page {
         ((JavascriptExecutor) DriverManager.getDriver())
                 .executeScript("arguments[0].scrollIntoView({block:'center'});", element);
     }
+
+    public void safeClick(By locator){
+        click(find(locator),10);
+        try {
+            WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(), Duration.ofSeconds(10));
+            Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+            alert.accept();
+        }
+        catch (TimeoutException e){
+            ExtentLoggerUtil.info("Alert never came");
+        }
+
+    }
+
+    public void action(WebElement element){
+        Actions a=new Actions(getDriver());
+        a.keyDown(element,Keys.F1);
+    }
+
+
 
 }
 

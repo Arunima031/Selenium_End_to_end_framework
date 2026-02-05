@@ -8,11 +8,13 @@ import org.practice.pageObjects.LandingPage;
 import org.practice.properties.ConfigureProperties;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Parameters;
 
 
 public class BaseTest {
 
     public Page page;
+
     @BeforeMethod(alwaysRun = true)
     public void initialiseDriver(){
         String browserName = ConfigureProperties.getProperty("browser");

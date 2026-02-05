@@ -3,7 +3,8 @@
 <suite  name="All Test Suite">
     <groups>
         <run>
-            <include name="Smoke"/>
+            <include name="Regression"/>
+            <exclude name="Smoke"/>
         </run>
     </groups>
     <listeners>

@@ -272,3 +272,56 @@ Session ID: 5341618cd52e6bf109aaee38b2359fd2
 2026-01-20 18:13:48 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
 2026-01-20 18:13:49 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
 2026-01-20 18:13:49 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-21 14:37:55 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-21 14:37:56 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-21 14:37:56 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-21 14:37:56 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-21 14:37:56 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-21 14:37:59 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-21 14:38:04 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-21 14:38:04 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-21 14:38:04 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : User
+2026-01-21 14:38:05 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-21 14:38:06 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-21 14:38:09 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-21 14:38:13 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-21 14:38:13 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-21 14:38:14 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-21 14:38:14 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-21 14:38:14 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-21 14:38:16 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-21 14:38:22 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-21 14:38:22 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-21 14:38:22 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-21 14:38:23 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-21 14:38:23 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-21 14:44:06 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-21 14:44:06 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-21 14:44:06 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : randomTest
+2026-01-21 16:42:23 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-21 16:42:23 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-21 16:42:23 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-21 16:42:23 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-21 16:42:23 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-21 16:42:26 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-21 16:42:31 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-21 16:42:31 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-21 16:42:31 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : User
+2026-01-21 16:42:32 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-21 16:42:32 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-21 16:42:35 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-21 16:42:40 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-21 16:42:40 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-21 16:42:40 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-21 16:42:40 [main] INFO  org.practice.utilities.LoggerUtil - clicked terms and condition checkbox
+2026-01-21 16:42:41 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-21 16:42:43 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-21 16:42:47 [main] INFO  org.practice.utilities.LoggerUtil - Typed username
+2026-01-21 16:42:47 [main] INFO  org.practice.utilities.LoggerUtil - Typed in password
+2026-01-21 16:42:47 [main] INFO  org.practice.utilities.LoggerUtil - Selected radio option : Admin
+2026-01-21 16:42:48 [main] INFO  org.practice.utilities.LoggerUtil - Clicked login
+2026-01-21 16:42:48 [main] INFO  org.practice.utilities.LoggerUtil - Test is passed for testCase : : loginTest
+2026-01-21 16:44:51 [main] WARN  org.practice.utilities.LoggerUtil - Test skipped : loginTest
+2026-01-21 16:44:54 [main] WARN  org.practice.utilities.LoggerUtil - Test skipped : loginTest
+2026-01-21 16:44:58 [main] WARN  org.practice.utilities.LoggerUtil - Test skipped : loginTest
+2026-01-21 16:45:01 [main] WARN  org.practice.utilities.LoggerUtil - Test skipped : loginTest
